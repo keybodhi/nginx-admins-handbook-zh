@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <h1>Nginx 管理员手册</h1>
 </div>
 
@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.hostingadvice.com/how-to/nginx-vs-apache/">
-    <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/nginx_meme.png" alt="Meme">
+    <img src="../../static/img/nginx_meme.png" alt="Meme">
   </a>
 </p>
 
@@ -514,7 +514,7 @@
 
 <p align="center">
   <a href="https://www.nginx.com/">
-    <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/nginx_admins_handbook_logo.png">
+    <img src="../../static/img/nginx_admins_handbook_logo.png">
   </a>
 </p>
 
@@ -661,7 +661,7 @@ author: thisinterestsmeblog
 <br>
 
 <p align="center">
-  <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/crypto_nerds.png">
+  <img src="../../static/img/crypto_nerds.png">
 </p>
 
 最后，我想引用在网络上发现的两条关于合规性以及人为因素在安全中的重要性的重要评论：
@@ -1299,7 +1299,7 @@ GitHub 公开了提交的 [RSS/Atom](https://github.com/trimstray/nginx-admins-h
 
 这些配方中的许多已应用于我旧的私人网站的配置。
 
-  > [配置示例](#configuration-examples)章节中有一个示例配置。它也基于[这个](https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/cheatsheets/nginx-hardening-cheatsheet-tls13.png)版本的可打印高分辨率加固速查表。
+  > [配置示例](#configuration-examples)章节中有一个示例配置。它也基于[这个](../../static/img/cheatsheets/nginx-hardening-cheatsheet-tls13.png)版本的可打印高分辨率加固速查表。
 
 <a id="ssl-labs"></a>
 ### SSL Labs
@@ -1336,7 +1336,7 @@ GitHub 公开了提交的 [RSS/Atom](https://github.com/trimstray/nginx-admins-h
   - 密码强度：100/100
 
 <p align="center">
-  <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/blkcipher_ssllabs_preview.png" alt="blkcipher_ssllabs_preview">
+  <img src="../../static/img/blkcipher_ssllabs_preview.png" alt="blkcipher_ssllabs_preview">
 </p>
 
 关于 SSL Labs 评分机制的一些看法（这是一个有趣的观点）：
@@ -1351,7 +1351,7 @@ GitHub 公开了提交的 [RSS/Atom](https://github.com/trimstray/nginx-admins-h
 我还在 Observatory 上获得了最高的总结评分 (**A+**)，测试分数非常高（120/100，最高 135/100）：
 
 <p align="center">
-  <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/blkcipher_mozilla_observatory_preview.png" alt="blkcipher_mozilla_observatory_preview">
+  <img src="../../static/img/blkcipher_mozilla_observatory_preview.png" alt="blkcipher_mozilla_observatory_preview">
 </p>
 
 <a id="printable-hardening-cheatsheets"></a>
@@ -1366,7 +1366,7 @@ GitHub 公开了提交的 [RSS/Atom](https://github.com/trimstray/nginx-admins-h
   > 它提供了 SSL Labs 测试的最高分数。配置非常严格，使用 4096 位私钥，仅 TLS 1.2，以及现代严格的 TLS 密码套件（非 128 位）。请仔细考虑其用途（无 TLS 1.3，严格的密码套件），在我看来，它仅适用于获得最高可能评分，并且似乎有些不切实际。
 
 <p align="center">
-  <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/cheatsheets/nginx-hardening-cheatsheet-tls12-100p.png" alt="nginx-hardening-cheatsheet-100p" width="92%" height="92%">
+  <img src="../../static/img/cheatsheets/nginx-hardening-cheatsheet-tls12-100p.png" alt="nginx-hardening-cheatsheet-100p" width="92%" height="92%">
 </p>
 
 - **A+**，在 @ssllabs 上获得 **120/100**，在 @mozilla observatory 上获得 **120/100**，支持 TLS 1.3：
@@ -1374,7 +1374,7 @@ GitHub 公开了提交的 [RSS/Atom](https://github.com/trimstray/nginx-admins-h
   > 它提供了不那么严格的设置，使用 2048 位 RSA 密钥或 256 位 ECC 密钥，TLS 1.3 和 1.2，现代严格的 TLS 密码套件（128/256 位），以及 Mozilla 推荐的 2048 位预定义 DH 组。最终评分也符合行业标准和指南。建议使用这个，对我来说，这是一个非常合理的配置。
 
 <p align="center">
-  <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/cheatsheets/nginx-hardening-cheatsheet-tls13.png" alt="nginx-hardening-cheatsheet-tls13" width="92%" height="92%">
+  <img src="../../static/img/cheatsheets/nginx-hardening-cheatsheet-tls13.png" alt="nginx-hardening-cheatsheet-tls13" width="92%" height="92%">
 </p>
 
 <a id="fully-automatic-installation"></a>
